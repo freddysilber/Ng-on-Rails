@@ -14,7 +14,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 const COMPONENTS = [
   UsersComponent,
   DashboardComponent,
-]
+];
 @NgModule({
   declarations: [
     AppComponent,

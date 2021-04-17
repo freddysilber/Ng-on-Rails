@@ -13,7 +13,7 @@ export class UsersComponent implements OnInit {
   ) { }
 
   ngOnInit() {
-    console.log(this._route)
+    console.log(this._route);
   }
 
 }
