@@ -12,6 +12,10 @@ const ROUTES: Routes = [
 		component: UsersComponent
 	},
 	{
+		path: 'api/users/:id',
+		component: UsersComponent
+	},
+	{
 		path: '**',
 		pathMatch: 'full',
 		redirectTo: ''
