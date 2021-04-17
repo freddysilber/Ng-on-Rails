@@ -14,9 +14,5 @@ export class AppComponent {
 
   constructor(
     private readonly _http: HttpClient
-  ) {
-    this._http.get(environment.apiUrl + '/api/users').subscribe((users) => {
-      console.log(users)
-    })
-  }
+  ) { }
 }
