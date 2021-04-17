@@ -1,4 +1,26 @@
 /* You can add global styles to this file, and also import other style files */
 
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+/* Set font for app */
+@font-face {
+	font-family: 'Drama Sans';
+		src: url('https://rawgit.com/drama-sans/drama-sans/master/dist/DramaSans.eot'); /* IE9 Compat Modes */
+		src: url('https://rawgit.com/drama-sans/drama-sans/master/dist/DramaSans.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+			   url('https://rawgit.com/drama-sans/drama-sans/master/dist/DramaSans.woff2') format('woff2'), /* Super Modern Browsers */
+			   url('https://rawgit.com/drama-sans/drama-sans/master/dist/DramaSans.woff') format('woff'), /* Pretty Modern Browsers */
+			   url('https://rawgit.com/drama-sans/drama-sans/master/dist/DramaSans.ttf')  format('truetype'); /* Safari, Android, iOS */
+}
+* {
+	font-family: 'Drama Sans';
+}
+
+html, 
+body {
+	height: 100%;
+	position: fixed;
+	overflow: hidden;
+}
+body { 
+	margin: 0; 
+	font-family: Roboto, 
+	"Helvetica Neue", sans-serif;
+}
