@@ -2,6 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { HttpClientModule } from '@angular/common/http';
 import { MatTabsModule } from '@angular/material/tabs';
+import { MatButtonModule } from '@angular/material/button'
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { AppComponent } from './app.component';
@@ -26,6 +27,7 @@ const COMPONENTS = [
     BrowserModule,
     HttpClientModule,
     MatTabsModule,
+    MatButtonModule,
     AppRoutingModule,
     BrowserAnimationsModule,
   ],
