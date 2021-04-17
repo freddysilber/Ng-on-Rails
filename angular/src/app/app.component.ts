@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
-import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
-import { environment } from 'src/environments/environment';
+
+import { UsersService } from './providers/users.service';
 
 @Component({
   selector: 'app-root',
@@ -10,9 +10,9 @@ import { environment } from 'src/environments/environment';
 })
 export class AppComponent {
 
-  public users$: Observable<any> = this._http.get(environment.apiUrl + '/api/users')
+  public users$: Observable<any> = this._usersService.getUsers();
 
   constructor(
-    private readonly _http: HttpClient
+    private readonly _usersService: UsersService
   ) { }
 }
