@@ -8,4 +8,13 @@
 	</ol>
 </ng-container>
 
+<ng-container *ngIf="(users$ | async); let users">
+	<mat-tab-group>
+		<mat-tab
+			*ngFor="let user of users"
+			[label]="user.first_name"
+		>{{ user.first_name }} {{ user.last_name }}</mat-tab>
+	</mat-tab-group>
+</ng-container>
+
 <router-outlet></router-outlet>
