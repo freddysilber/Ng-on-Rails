@@ -12,6 +12,7 @@ import {
 	DashboardComponent,
 	UsersComponent
 } from './components';
+import { NaviComponent } from './components/navi/navi.component';
 
 const COMPONENTS = [
 	UsersComponent,
@@ -22,6 +23,7 @@ const COMPONENTS = [
 	declarations: [
 		AppComponent,
 		COMPONENTS,
+  NaviComponent,
 	],
 	imports: [
 		BrowserModule,
