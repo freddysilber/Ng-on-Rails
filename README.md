@@ -1,4 +1,14 @@
 # README
+## Setup Instructions
+* ```npm i``` in root
+* ```cd angular && npm i```
+
+## Helpful Commands to Remeber
+* rake db:migrate && rake db:seed && rails s
+* rails s
+
+<br>
+<hr>
 
 This README would normally document whatever steps are necessary to get the
 application up and running.
