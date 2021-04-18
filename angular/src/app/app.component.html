@@ -1,10 +1,11 @@
 <ng-container *ngIf="(users$ | async); let users">
-	<a
-		*ngFor="let user of users"
-		href="api/users/{{ user.id }}"
-	>
-		{{ user.first_name }}
-	</a>
+	<ol>
+		<li *ngFor="let user of users">
+			<a href="api/users/{{ user.id }}">
+				{{ user.first_name }} {{ user.last_name }}
+			</a>
+		</li>
+	</ol>
 </ng-container>
 
 <router-outlet></router-outlet>
