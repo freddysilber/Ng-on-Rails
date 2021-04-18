@@ -1,7 +1,7 @@
 <ng-container *ngIf="(users$ | async); let users">
 	<ol>
 		<li *ngFor="let user of users">
-			<a href="api/users/{{ user.id }}">
+			<a routerLink="api/users/{{ user.id }}">
 				{{ user.first_name }} {{ user.last_name }}
 			</a>
 		</li>
