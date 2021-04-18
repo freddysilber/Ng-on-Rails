@@ -8,13 +8,16 @@
 User.create(
 	[
 		{
-			name: 'Freddy'
+			first_name: 'Freddy',
+			last_name: 'Silber'
 		},
 		{
-			name: 'Pheonix'
+			first_name: 'Pheonix',
+			last_name: 'Silber'
 		},
 		{
-			name: 'Admin'
+			first_name: 'Admin',
+			last_name: 'Silber'
 		}
 	]
 )
