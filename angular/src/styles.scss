@@ -1,5 +1,5 @@
 /* You can add global styles to this file, and also import other style files */
-
+$success-color: #07a266;
 /* Set font for app */
 @font-face {
 	font-family: 'Drama Sans';
@@ -7,7 +7,7 @@
 		src: url('https://rawgit.com/drama-sans/drama-sans/master/dist/DramaSans.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
 			   url('https://rawgit.com/drama-sans/drama-sans/master/dist/DramaSans.woff2') format('woff2'), /* Super Modern Browsers */
 			   url('https://rawgit.com/drama-sans/drama-sans/master/dist/DramaSans.woff') format('woff'), /* Pretty Modern Browsers */
-			   url('https://rawgit.com/drama-sans/drama-sans/master/dist/DramaSans.ttf')  format('truetype'); /* Safari, Android, iOS */
+			   url('https://rawgit.com/drama-sans/drama-sans/master/dist/DramaSans.ttf') format('truetype'); /* Safari, Android, iOS */
 }
 * {
 	font-family: 'Drama Sans';
