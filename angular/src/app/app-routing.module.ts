@@ -16,6 +16,10 @@ const ROUTES: Routes = [
 		component: UsersComponent
 	},
 	{
+		path: 'd3',
+		loadChildren: () => import('../modules/d3/d3.module').then(m => m.D3Module)
+	},
+	{
 		path: '**',
 		pathMatch: 'full',
 		redirectTo: ''

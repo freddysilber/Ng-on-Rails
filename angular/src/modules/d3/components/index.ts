@@ -1,0 +1,1 @@
+export { D3IndexComponent } from './d3-index/d3.component';
