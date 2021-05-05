@@ -7,15 +7,15 @@ import * as d3 from 'd3';
 })
 export class D3IndexComponent implements OnInit, AfterViewInit {
 
-	@ViewChild('d3Container') d3Container: ElementRef;
-
 	ngOnInit() {
 		console.log('hello D3');
 	}
 
 	ngAfterViewInit() {
-		this.d3Container = d3.select('d3Container');
-		console.log(this.d3Container);
+		this.buildSampleChart();
 	}
 
+	private buildSampleChart() {
+		d3.select('d3Container').append('svg')
+	}
 }
