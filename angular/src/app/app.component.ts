@@ -14,5 +14,9 @@ export class AppComponent {
 
 	constructor(
 		private readonly _usersService: UsersService
-	) { }
+	) {
+		this._usersService.getUser(1).subscribe((user) => {
+			console.log(user);
+		})
+	}
 }

@@ -15,7 +15,7 @@ export class UsersService {
 		return this._http.get<User[]>(`${environment.api}/api/users`);
 	}
 
-	public getUser(): Observable<User> {
-		return this._http.get<User>(`${environment.api}/api/users`);
+	public getUser(userId: number): Observable<User> {
+		return this._http.get<User>(`${environment.api}/api/users/${userId}`);
 	}
 }

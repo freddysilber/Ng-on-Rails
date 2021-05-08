@@ -3,6 +3,8 @@
 * ```npm i``` in root
 * ```cd angular && npm i```
 
+## Scripts
+* ```npm run dev```  - runs backend and client server together on 4200 port
 ## Helpful Commands to Remeber
 * rake db:migrate && rake db:seed && rails s
 * rails s
